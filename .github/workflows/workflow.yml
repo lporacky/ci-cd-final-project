@@ -20,9 +20,9 @@ jobs:
         run:  | 
           npm ci
       - name: Lint with ESLint
-        uses: |
+        run: |
           npm run lint
       - name: Run unit tests with Jest
-        uses: |
+        run: |
           npm test
           
